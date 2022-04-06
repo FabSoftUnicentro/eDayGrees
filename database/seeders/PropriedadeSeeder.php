@@ -1,11 +1,14 @@
 <?php
 
+namespace Database\Seeders;
+
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class PropriedadeSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
+     * Run the database seeders.
      *
      * @return void
      */
@@ -19,7 +22,7 @@ class PropriedadeSeeder extends Seeder
             'id_cultivar' => 1,
             'status' => 'OK',
             'Acumulo_graus' => 152.2
-        ],[
+        ], [
             'cidade' => 'Guarapuava',
             'estado' => 'PR',
             'nome_propriedade' => 'ADMIN1',

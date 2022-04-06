@@ -1,11 +1,14 @@
 <?php
 
+namespace Database\Seeders;
+
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class CultivarSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
+     * Run the database seeders.
      *
      * @return void
      *  $table->Integer('gemaAlgodao'); // temperatura cadastrada dentro do sistema para cada cultivar, usada para fazer verificacoes para possiveis mudancas de estadios fenologicos
