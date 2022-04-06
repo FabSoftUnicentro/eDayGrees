@@ -22,7 +22,7 @@ class PropriedadeSeeder extends Seeder
             'id_cultivar' => 1,
             'status' => 'OK',
             'Acumulo_graus' => 152.2
-        ],[
+        ], [
             'cidade' => 'Guarapuava',
             'estado' => 'PR',
             'nome_propriedade' => 'ADMIN1',
